@@ -12,6 +12,6 @@ if __name__ == "__main__":
     logging.basicConfig(
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
         level=logging.DEBUG)
-    #logger.level or logging.level
-    logger.setLevel(logging.INFO)
+    #logger.level or logging.level >= level
+    #logger.setLevel(logging.INFO)
     main()
